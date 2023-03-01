@@ -17,11 +17,7 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "jsx": "react-jsx",
-    "baseUrl": "./",
-    "paths": {
-      "*": ["src/*"],
-      "tests/*": ["tests/*"]
-    },
+    "baseUrl": "src",
     "outDir": "dist",
     "plugins": [
       {
