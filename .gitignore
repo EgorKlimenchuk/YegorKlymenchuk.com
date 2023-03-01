@@ -1,0 +1,12 @@
+build
+node_modules
+.idea
+coverage
+.env
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
