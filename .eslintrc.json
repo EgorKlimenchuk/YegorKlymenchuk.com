@@ -10,7 +10,7 @@
     "plugin:@typescript-eslint/recommended-requiring-type-checking"
   ],
   "parser": "@typescript-eslint/parser",
-  "ignorePatterns": ["webpack/*", "jest.*.js"],
+  "ignorePatterns": ["tailwind.*.js"],
   "parserOptions": {
     "allowImportExportEverywhere": true,
     "sourceType": "module",
