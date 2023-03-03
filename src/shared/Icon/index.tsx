@@ -11,6 +11,6 @@ export const Icon = ({ SvgIcon, className, clickable = true }: IconProps) => (
       clickable ? 'cursor-pointer' : 'cursor-default'
     }`}
   >
-    <SvgIcon />
+    <SvgIcon className="md:w-6" />
   </div>
 );
