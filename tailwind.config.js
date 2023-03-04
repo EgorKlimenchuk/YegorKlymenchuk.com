@@ -24,6 +24,9 @@ module.exports = {
       maxHeight: {
         176: '44rem',
       },
+      margin: {
+        1.5: '0.375rem',
+      },
     },
   },
   plugins: [],
