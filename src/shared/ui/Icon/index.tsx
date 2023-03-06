@@ -6,11 +6,9 @@ interface IconProps extends React.DOMAttributes<HTMLDivElement> {
 }
 
 export const Icon = ({ SvgIcon, className, clickable = true }: IconProps) => (
-  <div
+  <SvgIcon
     className={`${className || ''} ${
       clickable ? 'cursor-pointer' : 'cursor-default'
     }`}
-  >
-    <SvgIcon className="md:w-6" />
-  </div>
+  />
 );

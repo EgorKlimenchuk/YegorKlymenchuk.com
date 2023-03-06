@@ -10,9 +10,15 @@ body {
     Roboto, Helvetica Neue, Arial, sans-serif;
 }
 
+* {
+  color: var(--primary-color);
+}
+
 .root,
 #root,
 #docs-root {
   --primary-color: #262626;
   --secondary-color: #d4d4d4;
+  --button: rgb(245, 245, 245);
+  --hover: rgb(231, 231, 231);
 }

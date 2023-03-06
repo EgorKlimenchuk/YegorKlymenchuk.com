@@ -1,0 +1,16 @@
+.button {
+  transition: all 0.2s;
+
+  svg {
+    transition: all 0.3s;
+    right: 9px;
+  }
+
+  &:hover {
+    background-color: var(--hover);
+
+    svg {
+      right: 4px;
+    }
+  }
+}

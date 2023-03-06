@@ -1,6 +1,6 @@
-import { PageLayout } from 'shared/PageLayout';
+import { PageLayout } from 'shared/ui/PageLayout';
 import { AboutMe } from 'widgets/AboutMe';
-import { WorkExperience } from 'widgets/WorkExperience';
+import { SomeOfMyWork } from 'widgets/SomeOfMyWork';
 import { Footer } from 'widgets/Footer';
 import { Header } from 'widgets/Header';
 import { MySkills } from 'widgets/MySkills';
@@ -11,7 +11,7 @@ export const Home = () => (
       <Header />
       <AboutMe />
       <MySkills />
-      <WorkExperience />
+      <SomeOfMyWork />
     </PageLayout>
     <Footer />
   </>

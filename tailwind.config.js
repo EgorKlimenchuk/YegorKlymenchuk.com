@@ -6,6 +6,8 @@ module.exports = {
       colors: {
         'primary-color': 'var(--primary-color)',
         'secondary-color': 'var(--secondary-color)',
+        button: 'var(--button)',
+        hover: 'var(--hover)',
       },
       height: {
         'custom-0.05': '0.05rem',
@@ -26,6 +28,12 @@ module.exports = {
       },
       margin: {
         1.5: '0.375rem',
+      },
+      borderWidth: {
+        0.5: '0.5px',
+      },
+      boxShadow: {
+        custom: '0 0 3px #bbb',
       },
     },
   },

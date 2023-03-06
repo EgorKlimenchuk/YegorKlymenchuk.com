@@ -1,4 +1,4 @@
-import { TechSkills } from 'shared/TechSkills';
+import { TechSkills } from 'shared/ui/TechSkills';
 
 import { AllTechSkills, MySkillsDescription } from './lib/consts';
 
