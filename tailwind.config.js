@@ -11,6 +11,7 @@ module.exports = {
       },
       height: {
         'custom-0.05': '0.05rem',
+        'custom-37': '37rem',
       },
       screens: {
         sm: { max: '640px' },
@@ -22,9 +23,11 @@ module.exports = {
         '8xl': '90rem',
         '45%': '45%',
         '50%': '50%',
+        '70%': '70%',
       },
       maxHeight: {
-        176: '44rem',
+        'custom-44': '44rem',
+        'custom-37': '37rem',
       },
       margin: {
         1.5: '0.375rem',
@@ -34,6 +37,7 @@ module.exports = {
       },
       boxShadow: {
         custom: '0 0 3px #bbb',
+        custom2: '0 0 10px #bbb',
       },
     },
   },

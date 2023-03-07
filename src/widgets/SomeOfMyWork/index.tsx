@@ -9,7 +9,7 @@ export const SomeOfMyWork = () => {
   const currentActiveTypeWork = useStore($currentActiveTypeWork);
 
   return (
-    <div className="mt-48">
+    <div className="mt-48 md:mt-32">
       <Title />
       <Tabs currentActiveTypeWork={currentActiveTypeWork} />
       <TypeWorkContent currentActiveTypeWork={currentActiveTypeWork} />

@@ -1,5 +1,6 @@
 import { useStore } from 'effector-react';
 import { Link } from 'react-router-dom';
+import { v4 as uuid } from 'uuid';
 
 import { $allWorkExperience } from 'shared/effector/stores';
 import { TypesWorkEnum } from 'shared/effector/types';
@@ -20,12 +21,14 @@ export const TypeWorkContent = ({
     <div className="mt-10">
       {getCurrentTypeWorkList(allWorkExperience, currentActiveTypeWork).map(
         (work) => (
-          <div key={work.link} className="mb-32">
+          <div key={uuid()} className="mb-32">
             {work.img && (
-              <img
-                src={work.img}
-                className=" border-0.5 border-secondary-color cursor-pointer rounded"
-              />
+              <Link to={`projects/${work.key || ''}`}>
+                <img
+                  src={work.img}
+                  className=" border-0.5 border-secondary-color cursor-pointer rounded"
+                />
+              </Link>
             )}
             <div className="mt-8 font-bold text-xl">
               {work.nameOfCompany || work.nameOfProject}

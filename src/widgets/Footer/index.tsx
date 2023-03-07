@@ -11,7 +11,10 @@ export const Footer = () => (
     <div className="font-light w-full max-w-2xl leading-9 mb-20">
       {FooterInfo.description}
     </div>
-    <a className="text-lg font-semibold underline cursor-pointer">
+    <a
+      className="text-lg font-semibold underline cursor-pointer"
+      href={`mailto:${FooterInfo.email}`}
+    >
       {FooterInfo.email}
     </a>
     <div className="w-full flex items-center justify-between mt-20">

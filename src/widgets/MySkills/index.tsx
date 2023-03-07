@@ -3,7 +3,7 @@ import { TechSkills } from 'shared/ui/TechSkills';
 import { AllTechSkills, MySkillsDescription } from './lib/consts';
 
 export const MySkills = () => (
-  <div className="mt-48 flex flex-row items-center justify-between md:flex-col">
+  <div className="mt-48 flex flex-row items-center justify-between md:flex-col md:mt-32">
     <div className="max-w-45% w-full md:max-w-full">
       <h2 className="mb-8 text-4xl font-medium">{MySkillsDescription.title}</h2>
       <div className="font-light leading-9">
