@@ -1,6 +1,7 @@
 import { useStore } from 'effector-react';
 import { Link } from 'react-router-dom';
 import { v4 as uuid } from 'uuid';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import { $allWorkExperience } from 'shared/effector/stores';
 import { TypesWorkEnum } from 'shared/effector/types';
@@ -24,9 +25,10 @@ export const TypeWorkContent = ({
           <div key={uuid()} className="mb-32">
             {work.img && (
               <Link to={`projects/${work.key || ''}`}>
-                <img
+                <LazyLoadImage
                   src={work.img}
                   className="border-0.5 border-secondary-color cursor-pointer rounded"
+                  effect="blur"
                 />
               </Link>
             )}
