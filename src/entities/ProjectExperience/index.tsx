@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useStore } from 'effector-react';
+import { useInView } from 'react-intersection-observer';
 
 import { TechSkills } from 'shared/ui/TechSkills';
 
@@ -8,6 +9,7 @@ import { $currentProject, currentProjectChanged } from './effector';
 
 export const ProjectExperience = () => {
   const { name } = useParams();
+  const [ref, inView] = useInView();
 
   const currentProject = useStore($currentProject);
   const [isShowAllTech, setIsShowAllTech] = useState<boolean>(false);
@@ -29,7 +31,12 @@ export const ProjectExperience = () => {
   }, [name]);
 
   return currentProject ? (
-    <div>
+    <div
+      ref={ref}
+      className={`transition-opacity duration-500 ${
+        inView ? 'opacity-100' : 'opacity-0'
+      }`}
+    >
       <div className="font-bold text-4xl leading-9 mt-20 mb-8  md:text-xl">
         {currentProject.nameOfCompany || currentProject.nameOfProject}
       </div>
