@@ -6,18 +6,23 @@ import { MySkills } from 'widgets/MySkills';
 import { AppTitle } from 'entities/AppTitle';
 import { SocialMedia } from 'entities/SocialMedia';
 import { DesignLine } from 'entities/DesignLine';
+import { TransitionLayout } from 'shared/ui/TransitionLayout';
+import { Footer } from 'widgets/Footer';
 
 export const Home = () => (
-  <PageLayout>
-    <Header>
-      <AppTitle />
-      <div className="mt-24 flex justify-between items-center">
-        <SocialMedia />
-        <DesignLine />
-      </div>
-    </Header>
-    <AboutMe />
-    <MySkills />
-    <SomeOfMyWork />
-  </PageLayout>
+  <TransitionLayout>
+    <PageLayout>
+      <Header>
+        <AppTitle />
+        <div className="mt-24 flex justify-between items-center">
+          <SocialMedia />
+          <DesignLine />
+        </div>
+      </Header>
+      <AboutMe />
+      <MySkills />
+      <SomeOfMyWork />
+    </PageLayout>
+    <Footer />
+  </TransitionLayout>
 );
