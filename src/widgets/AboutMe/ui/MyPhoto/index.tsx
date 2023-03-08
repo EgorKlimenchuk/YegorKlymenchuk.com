@@ -1,8 +1,13 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 import MyPhotoPng from 'assets/icons/myPhoto.png';
 
 export const MyPhoto = () => (
-  <img
-    src={MyPhotoPng}
-    className="max-w-45% mt-auto max-h-custom-44 object-cover rounded-lg md:max-w-full md:max-h-full"
-  />
+  <div className="max-w-45% md:max-h-full md:max-w-full mt-auto">
+    <LazyLoadImage
+      src={MyPhotoPng}
+      effect="blur"
+      className="mt-auto max-h-custom-44 object-cover rounded-lg"
+    />
+  </div>
 );

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 import { App } from './app';
 import './index.scss';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

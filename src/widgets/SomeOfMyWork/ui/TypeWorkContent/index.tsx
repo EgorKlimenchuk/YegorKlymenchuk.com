@@ -26,7 +26,7 @@ export const TypeWorkContent = ({
               <Link to={`projects/${work.key || ''}`}>
                 <img
                   src={work.img}
-                  className=" border-0.5 border-secondary-color cursor-pointer rounded"
+                  className="border-0.5 border-secondary-color cursor-pointer rounded"
                 />
               </Link>
             )}
