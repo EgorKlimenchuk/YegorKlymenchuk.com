@@ -1,7 +1,6 @@
 import { v4 as uuid } from 'uuid';
 
 import { ReactComponent as LinkedInIcon } from 'assets/icons/linkedin.svg';
-import { ReactComponent as InstagramIcon } from 'assets/icons/instagram.svg';
 import { ReactComponent as TwitterIcon } from 'assets/icons/twitter.svg';
 
 import { SocialMediaItem } from './types';
