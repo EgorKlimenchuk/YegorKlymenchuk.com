@@ -10,6 +10,8 @@ export const AllTechSkills = [
   'HTML',
   'CSS',
   'Node',
+  'Express.js',
+  'Nest.js',
   'React',
   'Next',
   'Apollo',
