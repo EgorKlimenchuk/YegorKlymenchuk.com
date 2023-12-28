@@ -1,4 +1,4 @@
-import { SelfDiscriptionsInfo } from './libs/consts';
+import { SelfDiscriptionsInfo } from '../../libs/consts';
 
 export const SelfDescriptions = () => (
   <div className="max-w-50% ml-20 mt-12 text-right flex flex-col justify-end w-full md:max-w-full md:text-left md:ml-0">

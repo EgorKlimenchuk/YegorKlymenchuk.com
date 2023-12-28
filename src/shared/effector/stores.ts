@@ -16,9 +16,9 @@ export const $allWorkExperience = createStore<ProjectType[]>([
     nameOfCompany: 'CompatibL',
     key: 'CompatibL',
     description:
-      "This has been my full-time gig since December of 2021 and it's been exciting and interesting, to say the least, diving head first into the Fin-tech industry having no prior knowledge of it. During the period of work, I managed to participate in 2 internal projects of the company, go through all the stages of development and put the products into release. One of my most proud accomplishments since working at em, was introducing the idea (and implementation) of an internal UI component framework for expedited UI development and reusability. Let's walk through that...",
+      "This has been my full-time gig since December of 2021 and it's been exciting and interesting, to say the least, diving head first into the Fin-tech industry having no prior knowledge of it. During the period of work, I managed to participate in 4 internal projects of the company, go through all the stages of development and put the products into release. My experience at Compatibl was centered around leading the development and maintenance of an advanced monorepo design. This project was unique as it aimed to cater to a diverse range of customers through a unified user interface. Let's walk through that...",
     shortDescription:
-      "This has been my full-time gig since December of 2021 and it's been exciting and interesting, to say the least, diving head first into the Fin-tech industry having no prior knowledge of it. During the period of work, I managed to participate in 2 internal projects of the company, go through all the stages of development and put the products into release...",
+      "This has been my full-time gig since December of 2021 and it's been exciting and interesting, to say the least, diving head first into the Fin-tech industry having no prior knowledge of it. During the period of work, I managed to participate in 4 internal projects of the company, go through all the stages of development and put the products into release...",
     img: CompatibLScreenshort1,
     type: TypesWorkEnum.FULL_TIME,
     allTech: [
@@ -39,20 +39,20 @@ export const $allWorkExperience = createStore<ProjectType[]>([
     ],
     link: 'https://www.compatibl.com/',
     details:
-      'The design agency was completely create site design, style guide, and 2 color themes. The style guide gave us a framework to know what each state of each component needed to look like. To style the UI components, we chose the scss preprocessor and the Reactstrap library. Initially, the choice fell on Reactstrap because it had an API for tables. The tables were very important to us because the business requirements were built on them. But a month later we realized that the API for tables does not cope with the functionality that we need to implement. And we decided to add the react-table library and we began to breathe deeply. To implement business requirements, we used Redux/Toolkit, because most developers had experience with it. In general, Redux has a large community and good documentation, but my vote was for Effector. On the first internal project, we used Effector as a state manager. This is an amazing tool that supports multi-store well and separates all business logic from UI components, which makes the code much cleaner. It also has a very convenient subscription to events, much less code when compared with Redux and also good documentation.',
+      'In my role I implemented a versioning system for features based on the major.minor.patch approach, ensuring clear and structured updates. Regular communication with different teams and customers was integral to align project objectives and understand user needs. For the base UI version, it was essential to store main features while ensuring maintainability and scalability. Modularity was a key design principle, enabling us not to be constrained by any specific framework or customer project, thus maintaining flexibility in our development approach. Also interviews and mentoring junior developers was a priority, focusing on skill development and fostering a collaborative team environment as the team was constantly growing.',
     screenShots: [CompatibLScreenshort2, CompatibLScreenshort3],
     myNotableContributions:
-      "Along with the internal components created using Scss and Reactstrap, I expanded the application by adding additional, reused HOC components and custom hooks.\n\n Implemented the logic of reused components for tables with formatting of different data types. Possibility of nested tables along their path with breadcrumbs.\n\n Implemented the possibility of user interaction with UI when there is heavy asynchronous data loading in the process. I used a parallel thread using Web Workers.\n\n Configured user authorization. These are just a few things I've worked on since joining the team.",
+      "Development of Modular UI Library: Created a versatile UI component library enhancing development efficiency across multiple projects.\n\n Implementation of Versioning Strategy: Adopted the major.minor.patch approach for feature versioning, ensuring organized and traceable updates.\n\n Cross-Team Collaboration: Facilitated effective communication across various teams and with clients, aligning project goals with user requirements based on documentation.\n\n Framework-Neutral Design: Ensured the base UI's modularity, allowing it to remain independent of specific frameworks or client projects, thus enhancing its adaptability and reusability.",
     problemsAndLessonsLearned:
-      'The unidirectional modular architecture of the project gave me a clear understanding of how to properly create a supported and extensible large web application.',
+      'During my tenure, I encountered a frequent conflict between business objectives and development perspectives, particularly around the notion of perfectionism. However, this challenge led to a valuable realization: the fundamental principles of modularity, reusability, and maintainability are crucial for harmonizing business and development goals. Emphasizing these principles not only streamlined the development process but also facilitated smoother business operations, striking a balance between idealism in development and pragmatism in business execution.',
   },
   {
     nameOfCompany: 'KBI Biopharma',
     key: 'KBIBiopharma',
     description:
-      'Since June 2020, I have been working on an internal project of a company engaged in the creation of medicines and vaccines. The project was intended for medical and scientific staff in various fields to facilitate their work with statistical data and research results. The platform contained already structured tables and graphs so that medical professionals could immediately begin further study using ready-made and processed data.',
+      'Since June 2019, I have been working on an internal project of a company engaged in the creation of medicines and vaccines. The project was intended for medical and scientific staff in various fields to facilitate their work with statistical data and research results. The platform contained already structured tables and graphs so that medical professionals could immediately begin further study using ready-made and processed data.',
     shortDescription:
-      'Since June 2020, I have been working on an internal project of a company engaged in the creation of medicines and vaccines. The project was intended for medical and scientific staff in various fields to facilitate their work with statistical data and research results...',
+      'Since June 2019, I have been working on an internal project of a company engaged in the creation of medicines and vaccines. The project was intended for medical and scientific staff in various fields to facilitate their work with statistical data and research results...',
     img: KBIBiopharmaScreenshort1,
     type: TypesWorkEnum.FULL_TIME,
     allTech: [
@@ -78,9 +78,9 @@ export const $allWorkExperience = createStore<ProjectType[]>([
     nameOfProject: 'Rashomon',
     key: 'Rashomon',
     description:
-      'One of the projects at the beginning of my journey, in early 2020, was the American startup Rashomon.  The idea was to make a completely free version of presentation application, based on already implemented paid ones, where only parts of the application functions are available in the operation.  Rashomon was created by us on the Google platform using Google API.  We have done quite a lot of work, but, unfortunately, the project was closed due to the pandemic.',
+      'One of the projects at the beginning of my journey, in early 2019, was the American startup Rashomon.  The idea was to make a completely free version of presentation application, based on already implemented paid ones, where only parts of the application functions are available in the operation.  Rashomon was created by us on the Google platform using Google API.  We have done quite a lot of work, but, unfortunately, the project was closed due to the pandemic.',
     shortDescription:
-      'One of the projects at the beginning of my journey, in early 2020, was the American startup Rashomon.  The idea was to make a completely free version of presentation application, based on already implemented paid ones, where only parts of the application functions are available in the operation...',
+      'One of the projects at the beginning of my journey, in early 2019, was the American startup Rashomon.  The idea was to make a completely free version of presentation application, based on already implemented paid ones, where only parts of the application functions are available in the operation...',
     img: RashomonScreenshot1,
     type: TypesWorkEnum.CONTRACT,
     allTech: [
